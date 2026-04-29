@@ -9,6 +9,7 @@
  */
 const equipe: { nome: string; github: string }[] = [
   // ====== INÍCIO DA ÁREA DE EDIÇÃO COLABORATIVA ======
+  { nome: "João Henrique de Souza Oliveira Reis", github: "JoaoReis579" },
 
   // ====== FIM DA ÁREA DE EDIÇÃO COLABORATIVA ======
 ];
@@ -32,7 +33,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-ink-400 mb-3">
-              Equipe
+              Grupo 5
             </h3>
             <ul className="space-y-1.5">
               {equipe.map((membro) => (
